@@ -1,0 +1,52 @@
+.sec1 .row
+{
+	margin: 0px;
+}
+
+.sec1 .col-md-12
+{
+	padding: 2% 5%;
+}
+
+.sec1 .col-md-12 .col-md-3 
+{
+	padding: 1%;
+}
+.sec1 .col-md-12 .col-md-3 img
+{
+	height: 300px;
+	width: 100%;
+}
+
+.sec1 .col-md-12 .col-md-3:hover .overlay
+{
+  opacity: .7;
+}
+
+.sec1 .col-md-12 .col-md-3 .overlay{
+	 position: absolute;
+	  top: 13px;
+	  bottom: 12px;
+	  left: 12px;
+	    right: 12px;
+	    height: 
+    height: 324px;
+	  opacity: 0;
+	  padding-top: 35%; 
+	  background-color: #ff5c01;
+	text-align: center;
+}
+
+.sec1 .col-md-12 .col-md-3 .overlay .imgshow
+{
+	padding-right: 5%;
+}
+
+.sec1 .col-md-12 .col-md-3 .overlay a
+{
+	padding: 7%;
+	 border:3px solid white;
+	 border-radius: 50%;
+	 text-decoration: none;
+	 color: white;
+}

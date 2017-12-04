@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+<section class="headercontact">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="col-md-6">
+			</div>
+			<div class="col-md-6">
+				<div class="col-md-12">	
+					<div class="col-md-6 p1">					
+						<span class="fa fa-envelope" style="color: #3e454c;"></span><span class="email">info@ineo.in</span>
+					</div>
+					<div class="col-md-6 p2">					
+						<span class="fa fa-phone" style="color: #ff6d00;"></span><span class="mob">9921289784</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="headernavbar">
+	<div class="row">
+		<div class="col-md-12"  data-spy="affix" data-offset-top="30">
+			<div class="col-md-3">
+				<img src="images/ineologo.png">
+			</div>		
+			<div class="col-md-9">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="">Services</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="career.html">Career</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>	
+		</div>
+	</div>
+</section>
+<section class="carouselsec">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				    <li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/about.jpg" alt="image1">
+					</div>
+					<div class="item">
+						<img src="images/ineoeducation.jpg" alt="image2">
+					</div>
+					<div class="item">
+						<img src="images/ineotalentcare.jpg" alt="image3">
+					</div>
+					<div class="item">
+						<img src="images/ineotechnology.jpg" alt="image4">
+					</div>
+				</div>
+				 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					   <span class="glyphicon glyphicon-chevron-left"></span>
+					   <span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>		
+<section class="enquirysec">
+	<div class="row">
+		<button type="button" class="btn btn-danger right" data-toggle="modal" data-target=".enquiry"><b>Send Enquiry</b></button>
+
+		<div class="modal fade enquiry" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			    	<div class="modal-header">
+			        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+	                	    <h3 class="tittle" style="text-align:center;margin: 0px;">Send Enquiry</h3>
+			    	</div>
+			    <div class="modal-body">
+			        <form>
+					    <div class="form-group">
+							    <label>Name:</label><input class="form-control" id="inputlg" type="text" placeholder="Name">
+							</div>
+							<div class="form-group">
+							    <label>Contact No:</label><input class="form-control" id="inputlg" type="text" placeholder="Contact No.">
+							</div>
+							<div class="form-group">
+							    <label>Email:</label><input class="form-control" id="inputlg" type="text" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<label>Work:</label>
+							    <select class="form-control input-lg" id="sel1">
+							        <option>Create a Website</option>
+							        <option>Create a Mobile App</option>
+							        <option>Logo Creation</option>
+							        <option>Digital Marketing</option>
+							        <option>Website Maintainance and Recreation</option>
+							        <option>Website Hosting</option>
+							        <option>Website Development</option>
+							        <option>Others</option>
+							    </select>
+							</div>
+							<div class="form-group">						        
+								<label>Some Descrition:</label><textarea class="form-control" rows="5" id="comment" placeholder="Some Description"></textarea>
+						    </div>
+					</form>
+			    </div>
+			    <div class="modal-footer" style="text-align: center;">
+					<button type="button" class="btn btn-success input-xi">Submit</button>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+<!-- 
+
+		<div class="modal fade enquiry" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		    <div class="modal-dialog modal-lg">
+		        <div class="modal-content">
+	                <div class="container" style="width:80%; margin:0 auto;">
+	                    <h3 class="tittle" style="text-align:center">Send Enquiry</h3>
+	                    <form>
+	                        <div class="form-group">
+							    <label>Name</label><input class="form-control input-lg" id="inputlg" type="text" placeholder="Name">
+							</div>
+							<div class="form-group">
+							    <label>Contact No.</label><input class="form-control input-lg" id="inputlg" type="text" placeholder="Contact No.">
+							</div>
+							<div class="form-group">
+							    <label>Email.</label><input class="form-control input-lg" id="inputlg" type="text" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<label>Work</label>
+							    <select class="form-control input-lg" id="sel1">
+							        <option>Create a Website</option>
+							        <option>Create a Mobile App</option>
+							        <option>Logo Creation</option>
+							        <option>Digital Marketing</option>
+							        <option>Website Maintainance and Recreation</option>
+							        <option>Website Hosting</option>
+							        <option>Website Development</option>
+							        <option>Others</option>
+							    </select>
+							</div>
+							<div class="form-group">						        
+								<label>Some Descrition:</label><textarea class="form-control input-lg" rows="5" id="comment" placeholder="Some Description"></textarea>
+						    </div>
+							<button type="button" class="btn btn-success input-xi">Submit</button>
+	                    </form>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+    </div>-->
+</section> 
+<section class="coursessecheading">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="Heading">
+				<h1>OUR CORE SERVICES.</h1>
+				<h5>We would love to serve you more</h5>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="coursessec">
+	<div class="row">
+		<div class="col-md-12">    
+		    <div class="col-md-4">
+		        <div class="description" >
+				    <h2>Web Development</h2>
+		        	<p>We use latest technologies for website development which fulfills the need of our clients.We work on various technologies likely PHP, ANGULAR JS, NODE JS, MONGO DB, etc. So that we can provide web solution sto our clients.</p>
+		            <a href="">Read More</a>
+		        </div> 
+			            <div class="icon">
+			                <i class="fa fa-laptop fa-4x"></i>      
+			            </div>                 
+			        </div>     
+			        <div class="col-md-4">
+			            <div class="description" >
+			                <h2>Application Development</h2>
+			                <p>We are expertise in android, ios application development.We build high quality Application with perfect functionality as needed by the customer.</p>
+			                <a href="">Read More</a>
+			            </div> 
+			            <div class="icon">
+			                <i class="fa fa-laptop fa-4x"></i>      
+			            </div>                 
+			        </div>   
+			        <div class="col-md-4">
+			            <div class="description" >
+			                <h2>Software Development</h2>
+			                <p>We develope best desktop based softwares applications like ERP management, Homeopathy Softwares, Transport softwares, GST billing softwares.</a>
+			            </div> 
+			            <div class="icon">
+			                <i class="fa fa-laptop fa-4x"></i>      
+			            </div>                 
+			        </div>  
+			</div>
+		</div>
+	</section>
+	<section class="coursessec">
+		<div class="row">
+			<div class="col-md-12">	
+			    <div class="col-md-4">
+			            <div class="description" >
+			                <h2>Digital Marketing</h2>
+			                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+			                <a href="">Read More</a>
+			            </div> 
+			            <div class="icon">
+			                <i class="fa fa-laptop fa-4x"></i>      
+			            </div>  
+			        </div> 
+			       <div class="col-md-4">
+			            <div class="description" >
+			                <h2>Hardware Networking Services</h2>
+			                <p>We provide services like Desktop application support, Network Administration Services, Anti-Virus Security, Strategic Planning, Dealing in Systems.</p>
+			                <a href="">Read More</a>
+			            </div> 
+			            <div class="icon">
+			                <i class="fa fa-laptop fa-4x"></i>      
+			            </div>                 
+			        </div>     
+			       <div class="col-md-4">
+			            <div class="description" >
+			                <h2>Animation Creation</h2>
+			                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+			                <a href="">Read More</a>
+			            </div> 
+			            <div class="icon">
+			                <i class="fa fa-laptop fa-4x"></i>      
+			            </div>                 
+			        </div>
+			</div>
+		</div>
+	</section>
+	<section class="aboutsec">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-7">
+					<img src="images/about.jpg">
+				</div>
+				<div class="col-md-5">
+					<h1>About Us</h1>
+					<p>i-NEO is the project based organization that defined the project management, project outsourcing and etc. Project can be about achieving a desired result, be it making a profit or building a bridge or creating beneficial change-perhaps by developing new, more efficient working procedures.</p>
+						
+					<div class="readbutton">
+						<a href="" class="button">Read More</a>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</section>
+	<section class="ineoprogramssec">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-7 p1">
+					<h2>i-neo Technology</h2>
+					<ul>
+						<li><a href="">headline1</a></li>
+						<li><a href="">headline1</a></li>
+						<li><a href="">headline1</a></li>
+						<li><a href="">headline1</a></li>
+					</ul>
+					<a href="" class="button">More Info</a>
+				</div>
+				<div class="col-md-5 p1">
+					<h2>i-neo Foundation</h2>
+					<ul>
+						<li><a href="">headline1</a></li>
+						<li><a href="">headline1</a></li>
+						<li><a href="">headline1</a></li>
+						<li><a href="">headline1</a></li>
+					</ul>
+					<a href="" class="button">More Info</a>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-5 p2">
+						<h2>i-neo Talent Care</h2>
+						<ul>
+							<li><a href="">headline1</a></li>
+							<li><a href="">headline1</a></li>
+							<li><a href="">headline1</a></li>
+							<li><a href="">headline1</a></li>
+						</ul>
+						<a href="" class="button">More Info</a>
+				</div>
+				<div class="col-md-7 p2">
+					<h2>i-neo Education</h2>
+					<ul>
+						<li><a href="">headline1</a></li>
+						<li><a href="">headline1</a></li>
+						<li><a href="">headline1</a></li>
+						<li><a href="">headline1</a></li>
+					</ul>
+					<a href="" class="button">More Info</a>				
+				</div>
+			</div>			
+		</div>
+	</section>
+	<section class="parallaxsec">
+		<div class="row">
+			<div class="col-md-12 para">
+				<div class="col-md-12">
+					<div class="col-md-5">
+						<<h1>Expert Team</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+					</div>
+					<div class="col-md-7">
+						<img src="images/team.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="testimonialssec">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-6 p1">
+					<div class="col-md-12 testimonial">
+						<h1>Testimonials</h1>
+						<i class="fa fa-quote-left fa-4x"></i>
+
+						<div id="TestimonialsCarousel" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#TestimonialsCarousel" data-slide-to="0" class="active"></li>
+							    <li data-target="#TestimonialsCarousel" data-slide-to="1"></li>
+							    <li data-target="#TestimonialsCarousel" data-slide-to="2"></li>
+							    <li data-target="#TestimonialsCarousel" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<div class="col-md-12 feedback">
+										<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo lorem</p>
+									</div>
+
+									<div class="col-md-12 client">
+										<div class="col-md-3 img">
+											<img src="images/php.png">											
+										</div>
+										<div class="col-md-9">											
+											<h3>Bill Gates</h3>
+											<h4>~Fouder Microsoft</h4>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-md-12 feedback">
+										<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo lorem</p>
+									</div>
+									<div class="col-md-12 client">
+										<div class="col-md-3 img">
+											<img src="images/php.png">											
+										</div>
+										<div class="col-md-9">											
+											<h3>Bill Gates</h3>
+											<h4>~Fouder Microsoft</h4>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-md-12 feedback">
+										<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo lorem</p>
+									</div>
+									<div class="col-md-12 client">
+										<div class="col-md-3 img">
+											<img src="images/php.png">											
+										</div>
+										<div class="col-md-9">											
+											<h3>Bill Gates</h3>
+											<h4>~Fouder Microsoft</h4>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-md-12 feedback">
+										<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo lorem</p>
+									</div>
+									<div class="col-md-12 client">
+										<div class="col-md-3 img">
+											<img src="images/php.png">											
+										</div>
+										<div class="col-md-9">											
+											<h3>Bill Gates</h3>
+											<h4>~Fouder Microsoft</h4>
+										</div>
+									</div>
+								</div>							
+							</div>						 
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 p2">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="portfoliosec">
+		<div class="row">
+			<div class="col-md-12 p1">
+				<div id="portfolioslider" class="carousel slide" data-ride="carousel">
+				  		<ol class="carousel-indicators">
+				    		<li data-target="#portfolioslider" data-slide-to="0" class="active"></li>
+				    		<li data-target="#portfolioslider" data-slide-to="1"></li>
+				  		</ol>
+				  		<div class="carousel-inner">
+				    		<div class="item active">
+				    			<div class="col-md-12 p2">
+				    				<div class="col-md-3">
+							            <img src="images/cont.jpg">
+							            <div class="overlay">
+							                <span class="imgshow"><a href="" class="fa fa-picture-o fa-2x" data-toggle="modal" data-target="#myModal"></a></span><span><a href="http://www.google.com" class="fa fa-link fa-2x"></a></span>
+							            </div>
+ 							        </div>
+ 							        <div class="col-md-3">
+							            <img src="images/parallax1.png">
+							            <div class="overlay">
+							                <span class="imgshow"><a href="" class="fa fa-picture-o fa-2x" data-toggle="modal" data-target="#myModal"></a></span><span><a href="http://www.google.com" class="fa fa-link fa-2x"></a></span>
+							            </div>
+							        </div>
+							        <div class="col-md-3">
+							            <img src="images/parallax2.jpg">
+							            <div class="overlay">
+							                <span class="imgshow"><a href="" class="fa fa-picture-o fa-2x" data-toggle="modal" data-target="#myModal"></a></span><span><a href="http://www.google.com" class="fa fa-link fa-2x"></a></span>
+							            </div>
+							        </div>
+							        <div class="col-md-3">
+							            <img src="images/about.jpg">
+							            <div class="overlay">
+							                <span class="imgshow"><a href="" class="fa fa-picture-o fa-2x" data-toggle="modal" data-target="#myModal"></a></span><span><a href="http://www.google.com" class="fa fa-link fa-2x"></a></span>
+							            </div>
+							        </div>
+				    			</div>
+				    		</div>
+				    		<div class="item">
+				      			<div class="col-md-12 p2">
+				    				<div class="col-md-3">
+							            <img src="images/cont.jpg">
+							            <div class="overlay">
+							                <span class="imgshow"><a href="" class="fa fa-picture-o fa-2x" data-toggle="modal" data-target="#myModal"></a></span><span><a href="http://www.google.com" class="fa fa-link fa-2x"></a></span>
+							            </div>
+ 							        </div>
+ 							        <div class="col-md-3">
+							            <img src="images/parallax1.png">
+							            <div class="overlay">
+							                <span class="imgshow"><a href="" class="fa fa-picture-o fa-2x" data-toggle="modal" data-target="#myModal"></a></span><span><a href="http://www.google.com" class="fa fa-link fa-2x"></a></span>
+							            </div>
+							        </div>
+							        <div class="col-md-3">
+							            <img src="images/parallax2.jpg">
+							            <div class="overlay">
+							                <span class="imgshow"><a href="" class="fa fa-picture-o fa-2x" data-toggle="modal" data-target="#myModal"></a></span><span><a href="http://www.google.com" class="fa fa-link fa-2x"></a></span>
+							            </div>
+							        </div>
+							        <div class="col-md-3">
+							            <img src="images/about.jpg">
+							            <div class="overlay">
+							                <span class="imgshow"><a href="" class="fa fa-picture-o fa-2x" data-toggle="modal" data-target="#myModal"></a></span><span><a href="http://www.google.com" class="fa fa-link fa-2x"></a></span>
+							            </div>
+							        </div>
+				    			</div>
+				    		</div>
+				  		</div>
+
+						<a class="left carousel-control" href="#portfolioslider" data-slide="prev">
+						    <span class="fa fa-chevron-circle-left fa-3x"></span>
+						    <span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#portfolioslider" data-slide="next">
+						    <span class="fa fa-chevron-circle-right fa-3x"></span>
+						    <span class="sr-only">Next</span>
+						</a>
+					</div>
+			</div>			
+		</div>
+	</section>
+
+	<section class="popup">
+	<div id="myModal" class="modal fade" role="dialog">
+ 		<div class="modal-dialog">
+   			<div class="modal-content">
+      			<div class="modal-body">
+        			<img src="images/parallax2.jpg" style="width: 100%;">
+     			</div>
+    		</div>
+    	</div>
+	</div>
+</section>
+
+	<section class="footer1sec">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-6 p1">
+					<a href="" class="connectbutton">
+					<div class="col-md-4">
+						<h3>Get Connected</h3>
+					</div>
+					</a>
+					<div class="col-md-8">
+						<ul>
+						<li><a href=""><div class="fa fa-facebook fa-2x"></div></a></li>
+						<li><a href=""><div class="fa fa-instagram fa-2x"></div></a></li>
+						<li><a href=""><div class="fa fa-twitter fa-2x"></div> </a></li>
+						<li><a href=""><div class="fa fa-google-plus fa-2x"></div></a></li>
+					</ul>
+					</div>
+				</div>
+				<div class="col-md-6 p2">
+					<div class="input-group margin-bottom-sm">
+					    <input class="form-control" type="text" placeholder="Subscribe Newsletter">				    
+					    <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer2sec">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-12 p1">
+					<div class="col-md-7 p1">
+						<div class="col-md-5 c1">
+							<h3>Contact Us</h3>
+							<p>Email:</p>
+							<div class="">
+								<span class="fa fa-envelope fa-2x"></span><span class="cont"><a href="">info@ineo.in</a></span>
+							</div>
+
+							<p>Website:</p>
+							<div style="display: flex;">
+								<span class="fa fa-globe fa-2x"></span><span class="cont"><a href="">www.ineo.in</a></span>
+							</div>
+						</div>
+						<div class="col-md-7 c1">
+							<h3>Address</h3>
+							<div style="display: flex;">
+								<span class="fa fa-map-marker fa-2x"></span><p>i-neo Technologies 91, Ganesh Nagar, Nandanvan, Nagpur - 440032 (Maharashtra, India)</p>
+							</div>
+							<div style="display: flex;">
+								<span class="fa fa-mobile fa-2x"></span><p class="mobile">+91-8007004287</p><span class="fa fa-phone fa-2x" style="padding-left: 25px;"></span><p class="mobile2" style="padding-left: 2%;">+91-8485869588</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 p1">
+						<h1>i-neo Technologies</h1>
+						<p>i-NEO technologies helps startup businesses to reinterpret their businesses for digital world, i-NEO is the project based organization that defined the project management, project outsourcing and etc.</p>
+					</div>
+				</div>
+				<div class="col-md-12 p2">
+					<div class="col-md-7 p2">
+						<nav>
+							<ul>
+								<li><a href="">Home</a></li>
+								<li><a href="">About Us</a></li>
+								<li><a href="">Services</a></li>
+								<li><a href="">Portfolio</a></li>
+								<li><a href="">Career</a></li>
+								<li><a href="">Blog</a></li>
+								<li><a href="">Contact Us</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md-5 p2">
+						<div style="display: flex;">
+							<span class="fa fa-copyright fa-2x"></span><p>i-neo Technologies, All rights reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>

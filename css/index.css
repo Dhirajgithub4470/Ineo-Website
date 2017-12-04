@@ -1,0 +1,1644 @@
+/*****************************************************************************HOME PAGE********************************************************************************************/
+/*******Header Contact********/
+.headercontact .row
+{
+	margin: 0%;
+}
+
+.headercontact .col-md-12 .col-md-6
+{
+	padding-right: 15%;
+}
+
+.headercontact .col-md-12 .col-md-6 .col-md-12
+{
+	background-image: url(../images/ineocontactbanner.png);
+	background-size: cover;
+	height: 30px;
+}
+
+.headercontact .col-md-12 .col-md-6 .col-md-12 .col-md-6.p1
+{
+    padding-top: 1%;
+    padding-left: 7%;
+}
+
+.headercontact .col-md-12 .col-md-6 .col-md-12 .col-md-6.p2
+{
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+.headercontact .col-md-12 .col-md-6 .col-md-12 .email
+{
+	padding-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3e454c;
+}
+.headercontact .col-md-12 .col-md-6 .col-md-12 .mob
+{
+	padding-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff5c01;
+}
+/*******Header Contact Close Here********/
+
+/*******HeaderNavbar Contact********/
+.headernavbar .row
+{
+	margin: 0%;
+}
+
+.headernavbar .col-md-12 
+{
+	padding: 0px;
+	background-color: #fffffff0;
+}
+
+.headernavbar .col-md-12 .col-md-3
+{
+	padding: 0px;
+}
+
+.headernavbar .col-md-12 .col-md-3 img
+{
+	height: 80px;
+	padding-left: 20%;
+	width: 75%;
+}
+
+.headernavbar .col-md-12 .col-md-9
+{
+	padding: 0px;
+	padding-left: 15%;
+    height: 80px;
+}
+
+.headernavbar .col-md-12 .col-md-9 ul
+{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	display: flex;
+}
+
+.headernavbar .col-md-12 .col-md-9 ul li
+{
+    padding-top: 26px;
+    padding-bottom: 29px;
+}
+
+.headernavbar .col-md-12 .col-md-9 ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+    padding: 20px 15px;
+    color: #00346e;
+    border-radius: 5px;
+
+}
+
+.headernavbar .col-md-12 .col-md-9 ul li a:hover
+{
+	color: white;
+	background-color: #ff5c01;
+}
+
+.affix 
+{
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.affix + .carouselsec .col-md-12
+{
+    padding-top: 1000000000009px;
+}
+/*******HeaderNavbar Contact Close Here********/
+
+
+/*****************Floating Button For Enquiry***************************/
+.enquirysec .row
+{
+	margin: 0%;
+}
+
+.enquirysec .modal-body
+{
+    padding: 3% 15%;
+}
+.enquirysec .btn.btn-danger.right
+{
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  bottom: 0;
+  height: 2.5em;
+  margin: auto;
+  background: red;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.enquirysec .btn.btn-danger.right
+{
+   right: 0;
+    -webkit-transform-origin: 100% 50%;
+      -moz-transform-origin: 100% 50%;
+       -ms-transform-origin: 100% 50%;
+        -o-transform-origin: 100% 50%;
+           transform-origin: 100% 50%;
+    -webkit-transform: rotate(90deg) translate(50%, 50%);
+      -moz-transform: rotate(90deg) translate(50%, 50%);
+       -ms-transform: rotate(90deg) translate(50%, 50%);
+        -o-transform: rotate(90deg) translate(50%, 50%);
+           transform: rotate(90deg) translate(50%, 50%);
+}
+/*****************Floating Button For Enquiry***************************/
+/*******Slider Starts Here**********************/
+
+.carouselsec .row
+{
+	margin: 0px;
+}
+
+.carouselsec .col-md-12
+{
+	padding: 0px;
+}
+
+.carouselsec .carousel-inner img
+{
+	width: 100%;
+    height: 550px;
+}
+
+/*******Slider ends Here**********************/
+
+
+/*******Courses Section Starts Here**********************/
+.coursessecheading .row
+{
+   margin: 0px;
+}
+
+.coursessecheading
+{
+	background-color: rgba(255, 92, 1, 0.06);
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.coursessec
+{
+    padding: 4% 8%;
+    background-color: rgba(255, 92, 1, 0.06);
+}
+
+.coursessec .row
+{
+	margin: 0px;
+}
+
+.coursessec .col-md-12 .description
+{
+	text-align: center;
+    position: relative;
+    padding: 7%;
+    height: 360px;    
+    border: 1px solid #ff5c01;
+	box-shadow: 3px 3px 20px #888888;
+}
+
+
+.coursessec .col-md-12 .description p
+{
+	padding-bottom: 5%;
+}
+
+.coursessec .col-md-12 .description a
+{
+	text-decoration: none;
+    border: 1px solid #ff5c01;
+    border-radius: 5px;
+    color: #ff5c01;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 4%;
+}
+.coursessec .col-md-12 .description a:hover
+{
+	background-color: #ff5c01;
+	color: white;	
+}
+
+.coursessec .col-md-12 .icon i
+{
+	background-color: #ff5c01;
+	color: white;
+    border: 1px solid #ff5c01;
+    border-radius: 50%;
+    padding: 5%;
+    position: absolute;
+    z-index: 1;
+    top: -14%;
+    left: 38%;
+}
+
+/*******Courses Section ends Here**********************/
+
+/*******AboutUs Section Starts Here********************/
+
+.aboutsec .row
+{
+	margin: 0px;
+}
+.aboutsec .col-md-12
+{
+	padding-bottom: 3%;
+	background-color: rgba(255, 92, 1, 0.06);
+}
+.aboutsec .col-md-12 .col-md-7 img
+{
+	width: 100%;
+	height: 400px;
+}
+.aboutsec .col-md-12 .col-md-5 p
+{
+	word-spacing: 2px;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+.aboutsec .col-md-12 .col-md-5 a
+{
+	border:1px solid #ff5c01;
+	text-decoration: none;
+	border-radius: 5px;	
+    padding: 3%;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ff5c01; 
+}
+
+.aboutsec .col-md-12 .col-md-5 a:hover
+{
+	background-color: #ff5c01; 
+    color: white;
+}
+
+.aboutsec .col-md-12 .col-md-5 .readbutton
+{
+	padding-top: 3%;
+	text-align: center;
+}
+
+
+/*******AboutUs Section Ends Here********************/
+
+/*******Ineo Programs Section Ends Here********************/
+.ineoprogramssec .row
+{
+	margin: 0px;
+}
+
+.ineoprogramssec .col-md-12
+{
+	height: 350px;
+	display: flex;
+	background-color: rgba(255, 92, 1, 0.06);
+}
+
+
+.ineoprogramssec .col-md-12 .col-md-7.p1
+{
+	background-image: url(../images/ineotechnology.jpg);
+	height: 345px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 7px 3px;
+	padding: 0px;
+	text-align: center;
+	background-position: center;
+	transition: 5s;
+}
+
+.ineoprogramssec .col-md-12 .col-md-7.p1:hover
+{
+	background-size: 140%;
+}
+
+.ineoprogramssec .col-md-12 .col-md-7.p1 h2
+{
+	color: white;
+	font-weight: bold;
+}
+
+.ineoprogramssec .col-md-12 .col-md-7.p1 ul
+{
+	list-style: none;
+}
+
+.ineoprogramssec .col-md-12 .col-md-7.p1 ul li:before 
+{
+	font-size: 16px;
+	font-weight: bold;
+    content: ">"; 
+    padding-right: 8px;
+    color: white; 
+}
+.ineoprogramssec .col-md-12 .col-md-7.p1 ul li a
+{
+	padding-right: 25px;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+}
+.ineoprogramssec .col-md-12 .col-md-7.p1 .button
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border:1px solid white;
+	border-radius: 5px;	
+    padding: 1% 2%;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.ineoprogramssec .col-md-12 .col-md-7.p1 .button:hover
+{
+	color: white;
+	background-color: #ff5c01; 
+	font-weight: bold;
+	border:1px solid #ff5c01;
+	border-radius: 5px;	
+    padding: 1% 2%;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.ineoprogramssec .col-md-12 .col-md-5.p1
+{
+	background-image: url(../images/ineoeducation.jpg);
+	height: 345px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 7px 3px;
+	padding: 0px;
+	text-align: center;
+	background-position: center;
+	transition: 5s;
+}
+
+.ineoprogramssec .col-md-12 .col-md-5.p1:hover
+{
+	background-size: 140%;
+}
+
+
+.ineoprogramssec .col-md-12 .col-md-5.p1 h2
+{
+	color: white;
+	font-weight: bold;
+}
+
+.ineoprogramssec .col-md-12 .col-md-5.p1 ul
+{
+	list-style: none;
+	text-align: center;
+}
+
+.ineoprogramssec .col-md-12 .col-md-5.p1 ul li:before 
+{
+	font-size: 16px;
+	font-weight: bold;
+    content: ">"; 
+    padding-right: 8px;
+    color: white; 
+}
+.ineoprogramssec .col-md-12 .col-md-5.p1 ul li a
+{
+	padding-right: 25px;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+}
+.ineoprogramssec .col-md-12 .col-md-5.p1 .button
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border:1px solid white;
+	border-radius: 5px;	
+    padding: 1% 2%;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.ineoprogramssec .col-md-12 .col-md-5.p1 .button:hover
+{
+	color: white;
+	background-color: #ff5c01; 
+	font-weight: bold;
+	border:1px solid #ff5c01;
+	border-radius: 5px;	
+    padding: 1% 2%;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+
+
+.ineoprogramssec .col-md-12 .col-md-7.p2
+{
+	background-image: url(../images/ineotalentcare.jpg);
+	height: 345px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 7px 3px;
+	padding: 0px;
+	text-align: center;
+	background-position: center;
+	transition: 5s;
+}
+
+.ineoprogramssec .col-md-12 .col-md-7.p2:hover
+{
+	background-size: 140%;
+}
+
+.ineoprogramssec .col-md-12 .col-md-7.p2 h2
+{
+	color: white;
+	font-weight: bold;
+}
+
+.ineoprogramssec .col-md-12 .col-md-7.p2 ul
+{
+	list-style: none;
+}
+
+.ineoprogramssec .col-md-12 .col-md-7.p2 ul li:before 
+{
+	font-size: 16px;
+	font-weight: bold;
+    content: ">"; 
+    padding-right: 8px;
+    color: white; 
+}
+.ineoprogramssec .col-md-12 .col-md-7.p2 ul li a
+{
+	padding-right: 25px;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+}
+.ineoprogramssec .col-md-12 .col-md-7.p2 .button
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border:1px solid white;
+	border-radius: 5px;	
+    padding: 1% 2%;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.ineoprogramssec .col-md-12 .col-md-7.p2 .button:hover
+{
+	color: white;
+	background-color: #ff5c01; 
+	font-weight: bold;
+	border:1px solid #ff5c01;
+	border-radius: 5px;	
+    padding: 1% 2%;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.ineoprogramssec .col-md-12 .col-md-5.p2
+{
+	background-image: url(../images/ineoeducation.jpg);
+	height: 345px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 7px 3px;
+	padding: 0px;
+	text-align: center;
+	background-position: center;
+	transition: 5s;
+}
+
+.ineoprogramssec .col-md-12 .col-md-5.p2:hover
+{
+	background-size: 140%;
+}
+
+
+.ineoprogramssec .col-md-12 .col-md-5.p2 h2
+{
+	color: white;
+	font-weight: bold;
+}
+
+.ineoprogramssec .col-md-12 .col-md-5.p2 ul
+{
+	list-style: none;
+	text-align: center;
+}
+
+.ineoprogramssec .col-md-12 .col-md-5.p2 ul li:before 
+{
+	font-size: 16px;
+	font-weight: bold;
+    content: ">"; 
+    padding-right: 8px;
+    color: white; 
+}
+.ineoprogramssec .col-md-12 .col-md-5.p2 ul li a
+{
+	padding-right: 25px;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+}
+.ineoprogramssec .col-md-12 .col-md-5.p2 .button
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border:1px solid white;
+	border-radius: 5px;	
+    padding: 1% 2%;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.ineoprogramssec .col-md-12 .col-md-5.p2 .button:hover
+{
+	color: white;
+	background-color: #ff5c01; 
+	font-weight: bold;
+	border:1px solid #ff5c01;
+	border-radius: 5px;	
+    padding: 1% 2%;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+/*******Ineo Programs Section Ends Here********************/
+
+/***************Parallax Section Starts Here*****************/
+
+.parallaxsec .row
+{
+	margin: 0px;
+}
+
+.parallaxsec 
+{
+	padding-top: 10px;
+	background-color: rgba(255, 92, 1, 0.06);
+}
+
+
+.parallaxsec .col-md-12.para
+{
+	background-image: url(../images/parallax1.png);
+	height: 60vh;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+	text-align: center;
+	padding: 0px;
+}
+
+.parallaxsec .col-md-12.para img
+{
+    width: 100%;
+    height: 403px;
+}
+
+.parallaxsec .col-md-12.para .col-md-12
+{
+	background-color: rgba(255, 255, 255, 0.80);
+	padding: 0px;
+}
+
+.parallaxsec .col-md-12.para .col-md-12 .col-md-5 p
+{
+	word-spacing: 2px;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+/***************Parallax Section Rnds Here*****************/
+
+/***************Testimonials Section Starts Here*****************/
+
+.testimonialssec .row
+{
+	margin: 0px;
+}
+
+.testimonialssec .col-md-12 .col-md-6.p1
+{
+	padding: 0px;
+	background-image: url(../images/testimonialbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 450px;
+}
+.testimonialssec .col-md-12 .col-md-6.p1 .col-md-12.testimonial
+{
+	background-color: rgba(255, 92, 1, 0.20);
+	padding: 0px;
+
+    height: 450px;
+}
+
+.testimonialssec .col-md-12 .col-md-6.p1 h1
+{
+	padding: 3%;
+	margin: 0px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+.testimonialssec .col-md-12 .col-md-6.p1 i
+{
+	color: white;
+	padding-left: 27px;
+}
+.testimonialssec .col-md-12 .col-md-6.p1 .carousel-inner .col-md-12.feedback
+{
+	padding-left: 80px;
+	padding-right: 30px;		
+}
+
+.testimonialssec .col-md-12 .col-md-6.p1 .carousel-inner .col-md-12.feedback p
+{
+	word-spacing: 2px;
+	letter-spacing: 3px;
+	font-size: 20px;	
+	color: white;
+}
+.testimonialssec .col-md-12 .col-md-6.p1 .carousel-inner img
+{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+
+
+/***************Testimonials Section Ends Here*****************/
+
+
+
+/***************Portfolio Section Ends Here*****************/
+
+
+.portfoliosec .row
+{
+	margin: 0px;
+}
+
+.portfoliosec .col-md-12
+{
+	padding: 1% 4%;
+	background-color: rgba(255, 92, 1, 0.06);
+
+}
+
+.portfoliosec .col-md-12 .col-md-3 
+{
+	padding: 1%;
+}
+.portfoliosec .col-md-12 .col-md-3 img
+{
+	height: 300px;
+	width: 100%;
+}
+
+.portfoliosec .col-md-12 .col-md-3:hover .overlay
+{
+  opacity: .7;
+}
+
+.portfoliosec .col-md-12 .col-md-3 .overlay{
+	 position: absolute;
+	  top: 11px;
+	  bottom: 11px;
+	  left: 11px;
+	    right: 10px;
+	    height: 
+    height: 324px;
+	  opacity: 0;
+	  padding-top: 35%; 
+	  background-color: #ff5c01;
+	text-align: center;
+}
+
+.portfoliosec .col-md-12 .col-md-3 .overlay .imgshow
+{
+	padding-right: 5%;
+}
+
+.portfoliosec .col-md-12 .col-md-3 .overlay a
+{
+	padding: 7%;
+	border:3px solid white;
+	border-radius: 50%;
+	text-decoration: none;
+	color: white;
+}
+.carousel-control.left
+{
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%);
+    padding-top: 160px;
+    width: 70px;
+}
+
+.carousel-control.right
+{
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%);
+    padding-top: 160px;
+    width: 70px;
+}
+
+/***************Portfolio Section Ends Here*****************/
+
+
+/***************Popup Section Starts Here*****************/
+
+.popup .modal-dialog
+{
+    margin: 60px 360px;
+    height: 543px;
+}
+.popup .modal-body
+{
+	padding: 0%;
+}
+
+.popup img
+{
+	height: 543px;
+
+}
+
+
+/***************Popup Section Ends Here*****************/
+
+
+/********************Footer1 Section Starts Here*******************/
+
+.footer1sec .row
+{
+	margin: 0px;
+}
+
+.footer1sec .col-md-12
+{
+    padding: 0%;	    
+	background-color: rgba(255, 92, 1, 0.06);
+}
+
+.footer1sec .col-md-12 .col-md-6.p1
+{
+	padding-left: 5%;
+}
+.footer1sec .col-md-12 .col-md-6.p1 .col-md-4 
+{
+	padding: 4% 2%;
+}
+
+.footer1sec .col-md-12 .col-md-6.p1 .col-md-4 h3
+{
+	margin: 0px;
+	font-weight: bold;
+	font-size: 24px;
+	padding-bottom: 5px;
+}
+
+.footer1sec .col-md-12 .col-md-6.p1 .col-md-8
+{
+	padding-left: 0%;
+}
+
+.footer1sec .col-md-12 .col-md-6.p1 .col-md-8 ul
+{
+	list-style: none;
+	display: flex;
+	margin: 0px;
+	padding-left: 0%;
+}
+
+.footer1sec .col-md-12 .col-md-6.p1 .col-md-8 ul li .fa
+{
+    padding: 25px 25px;
+}
+
+.footer1sec .col-md-12 .col-md-6.p1 .col-md-8 ul li:hover, .fa:hover
+{
+    background-color: #ff5c01;
+    color: white;
+}
+
+.footer1sec .col-md-12 .col-md-6.p1 .col-md-8 ul li a
+{
+	text-decoration: none;
+	color: #00346e;
+}
+
+.footer1sec .col-md-12 .col-md-6.p1 .connectbutton .col-md-4
+{
+	color: #00346e;
+}
+.footer1sec .col-md-12 .col-md-6.p1 .connectbutton .col-md-4:hover
+{
+	background-color: #ff5c01;
+    color:  white;
+}
+
+.footer1sec .col-md-12 .col-md-6.p2
+{
+	padding-right: 6%;
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+.footer1sec .col-md-12 .col-md-6.p2 .form-control
+{
+	padding: 22px;
+}
+
+/*.footer1sec .col-md-12 .col-md-6.p2 .font-control .fa
+{
+	padding: 13px;
+}*/
+
+/***************************Footer1 Section Ends Here*********************/
+
+/***************************Footer2 Section Starts Here********************/
+.footer2sec .row
+{
+	margin: 0px;
+}
+.footer2sec .fa:hover
+{
+	color:#888;
+	background-color: rgba(0, 0, 0, 0);
+}
+.footer2sec .col-md-12
+{
+	background-image: url(../images/parallaxfooter.jpg);
+	height: 10vh;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;/*
+	text-align: center;*/
+	padding: 0px};
+
+
+.footer2sec .col-md-12 img
+{
+    width: 100%;
+    height: 403px;
+}
+
+.footer2sec .col-md-12 .col-md-12.p1 .col-md-7.p1
+{
+	background-color: rgba(10, 10, 10, 0.88);
+	height: 212px;
+	color: #888;
+	padding: 0px;
+}
+
+.footer2sec .col-md-12 .col-md-12.p1 .col-md-7.p1 .cont
+{
+    padding-left: 8%;
+}
+
+.footer2sec .col-md-12 .col-md-12.p1 .col-md-7.p1 a
+{
+	text-decoration: none;
+	color: #888;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+.footer2sec .col-md-12 .col-md-12.p1
+{
+	background-color: rgba(10, 10, 10, 0.88);
+	padding: 0px;
+}
+
+.footer2sec .col-md-12 .col-md-12.p1 .col-md-7.p1 .col-md-5.c1
+{
+    padding-left: 8%;
+}
+
+.footer2sec .col-md-12 .col-md-12.p1 .col-md-7.p1 .col-md-7.c1
+{
+	padding: 0% 5%;
+}
+
+.footer2sec .col-md-12 .col-md-12.p1 .col-md-7.p1 .col-md-7.c1 p
+{
+	padding-left: 5%;
+	font-size: 18px;
+}
+.footer2sec .col-md-12 .col-md-12.p1 .col-md-5.p1
+{
+	padding: 0% 1%;
+	background-color: rgba(10, 10, 10, 0.88);
+	height: 212px;
+	color: #888;
+}
+.footer2sec .col-md-12 .col-md-12.p1 .col-md-5.p1 p
+{
+	font-size: 18px;
+}
+
+.footer2sec .col-md-12 .col-md-12.p2 .col-md-7.p2
+{
+	background-color: rgba(10, 10, 10, 0.88);
+	padding: 0% 4%;
+}
+
+.footer2sec .col-md-12 .col-md-12.p2 .col-md-7.p2 ul
+{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	display: flex;
+}
+
+.footer2sec .col-md-12 .col-md-12.p2 .col-md-7.p2 ul li
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer2sec .col-md-12 .col-md-12.p2 .col-md-7.p2 ul li a
+{
+	text-decoration: none;
+	font-size: 18px;
+    padding: 15px 15px;
+    color: #00346e;
+    border-radius: 5px;
+	color: #888;
+	font-weight: 400;
+
+}
+.footer2sec .col-md-12 .col-md-12.p2
+{
+    height: 0px;
+}
+
+.footer2sec .col-md-12 .col-md-12.p2 .col-md-7.p2 ul li a:hover
+{
+	color: white;
+	background-color: #ff5c01;
+}
+
+
+.footer2sec .col-md-12 .col-md-12.p2 .col-md-5.p2
+{
+	padding: 20px 1% 0% 1%;
+	background-color: rgba(10, 10, 10, 0.88);	
+	color: #888;	
+    height: 65px;
+}
+.footer2sec .col-md-12 .col-md-12.p2 .col-md-5.p2 p
+{	
+
+	padding-left: 1%;
+	font-size: 18px;
+}
+/***************************Footer2 Section Ends Here********************/
+/*************************************************************************************About Us Page Starts Here****************************************************************************/
+/****************About Heading Starts Here*****************/
+.pageheading .row
+{
+	margin: 0px;
+}
+.pageheading .col-md-12.para
+{
+	background-image: url(../images/topbanner.png);
+	width: 100%;
+    height: 160px;
+    background-size: cover;
+	padding: 0px;
+}
+.pageheading .col-md-12.para .col-md-5
+{
+    padding: 2% 10%;
+}
+.pageheading .col-md-12.para .col-md-5 h1
+{
+    font-weight: bold;
+    font-size: 50px;
+    color: #ff5c01; 
+}
+.pageheading .col-md-12
+{
+	background-color: rgba(255, 255, 255, 0.67);
+	padding: 0px;
+}
+.aboutparallax2 .row
+{
+	margin: 0px;
+}
+.aboutparallax2 .parallaxsec .col-md-12 p
+{
+    margin: 0px;
+    height: 364px;
+    padding: 0% 10%;
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: black;
+    background-color: #ffffffe3;
+}
+.aboutparallax2 .parallaxsec .col-md-12 h1
+{
+    padding: 3% 10% 1% 10%;
+    text-align: left;
+	margin: 0px;
+    color: #ff5c01; 
+    background-color: #ffffffe3;
+}
+.mission-vission .row
+{
+	margin: 0px;
+}
+.mission-vission .col-md-12
+{
+	padding: 0% 0%;
+}
+.mission-vission .col-md-12 img
+{
+	height: 350px;
+    width: 100%;
+}
+.mission-vission .col-md-12 .heading
+{
+    font-weight: bold;
+    color: white; 
+}
+.mission-vission .col-md-12 .col-md-6.img
+{
+	padding: 0px;
+}
+.mission-vission .col-md-12 .col-md-6.desc
+{
+
+    height: 350px;
+    text-align: center;
+    background-color:  #ff5c01; 
+}
+.mission-vission .col-md-12 p
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+.domainsp1 .row
+{
+	margin: 0px;
+}
+.domainsp1 .col-md-12
+{
+	padding: 0% 8%;
+}
+.domainsp1 .col-md-12 .col-md-4 .p1
+{
+	border: 1px solid black;
+	border-top: none;
+	padding-bottom: 25px;
+	padding: 0%;
+}
+.domainsp1 .col-md-12 .col-md-4 p
+{
+	text-align: center;
+	padding: 1%;
+	padding-top: 9%;
+}
+.domainsp1 .col-md-12 .col-md-4 h6
+{
+	text-align: center;
+}
+.domainsp1 .col-md-12 h3
+{
+	border: 1px solid black;
+	margin: 0%;
+}
+.domainsp1 .col-md-12 a
+{
+	text-decoration: none;
+}
+.domainsp1 .col-md-12
+{
+
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+}
+.domainsp1 .col-md-12 img
+{
+	height: 161px;
+}
+.domainsp1 .col-md-4 
+{
+    padding-right: 70px;
+}
+.domainsp1 .col-md-4 a
+{
+	border: 1px solid  rgba(255, 188, 0, 0.82);
+	top:45%;
+	left: 15%;
+    padding: 11px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(255, 188, 0, 0.82);
+}
+
+
+
+
+/****************About Heading Ends Here*****************/
+
+
+/****************Company Overview Starts Here*****************/
+
+.aboutparallax2 .row
+{
+	margin: 0px;
+}
+.aboutparallax2 .parallaxsec
+{
+	padding-top: 0px;
+}
+.aboutparallax2 .parallaxsec .col-md-12
+{
+	background-image: url(../images/footerpara2.jpg);
+	height: 60vh;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+	text-align: center;
+	padding: 0px;
+}
+
+
+/****************Company Overview Ends Here****************
+
+
+/******************************************Portfolio Page Starts Here***********************************/
+
+/****************portfolio Heading Starts Here*****************/
+/*.portfolioparallax1 .row
+{
+	margin: 0px;
+}
+
+.portfolioparallax1 .col-md-12.para
+{
+	background-image: url(../images/topbanner.png);
+	width: 100%;
+    height: 160px;
+    background-size: cover;
+	padding: 0px;
+}
+.portfolioparallax1 .col-md-12.para .col-md-5
+{
+    padding: 2% 10%;
+}
+.portfolioparallax1 .col-md-12.para .col-md-5 h1
+{
+    font-weight: bold;
+    font-size: 50px;
+    color: #ff5c01; 
+}
+.portfolioparallax1 .col-md-12
+{
+	background-color: rgba(255, 255, 255, 0.67);
+	padding: 0px;
+}*/
+.portfolioheading .row
+{
+	margin: 0px;
+}
+.portfolioheading .col-md-12.p1 h1
+{
+	text-align: center;
+}
+.portfolioheading .col-md-12.p2 p
+{
+	text-align: center;
+}
+.portfoliolist .col-md-12.tab1, .col-md-12.tab2, .col-md-12.tab3, .col-md-12.tab4, .col-md-12.tab5
+{
+	padding: 1% 8%;
+	text-align: center;
+	background-color: rgba(164, 151, 185, 0.08);
+}
+
+.portfoliolist .col-md-12.tab1 .col-md-6 img, .col-md-12.tab2 .col-md-6 img, .col-md-12.tab3 .col-md-6 img, .col-md-12.tab4 .col-md-6 img,.col-md-12.tab5 .col-md-6 img
+{
+	height: 300px;
+	width: 100%;
+}
+.portfoliolist .col-md-12.tab1
+{
+	display: block;
+}
+
+.portfoliolist .col-md-12.detailnav
+{
+	background-color: rgba(164, 151, 185, 0.08);
+    padding: 2% 8%;
+}
+.portfoliolist .col-md-12.detailnav nav 
+{
+    background-color: #ffdecc;
+    border-radius:18px;
+}
+
+.portfoliolist .col-md-12.detailnav nav ul 
+{
+    display: flex;
+    list-style:none;
+    padding: 15px 10px;
+}
+.portfoliolist .col-md-12.detailnav nav ul li 
+{
+    margin:auto;/*
+    padding: 2% 10%;*/
+    border-radius: 18px;
+}
+.portfoliolist .col-md-12.detailnav nav ul li a 
+{
+    color: #ff5c01;
+    text-decoration:none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.portfoliolist .col-md-12.detailnav nav ul li a:hover
+{
+    color: white;
+    background-color: #ff5c01;
+}
+.portfoliolist .col-md-12.tab2, .col-md-12.tab3, .col-md-12.tab4, .col-md-12.tab5, .col-md-12.tab6
+{
+    display: none;
+}
+/****************About Heading Ends Here*****************/
+
+
+
+/******************************************Contact Us Page Starts Here***********************************/
+/*.contactusparallax1 .row
+{
+	margin: 0px;
+}
+
+.contactusparallax1 .col-md-12.para
+{
+	background-image: url(../images/topbanner.png);
+	width: 100%;
+    height: 160px;
+    background-size: cover;
+	padding: 0px;
+}
+.contactusparallax1 .col-md-12.para .col-md-5
+{
+    padding: 2% 10%;
+}
+.contactusparallax1 .col-md-12.para .col-md-5 h1
+{
+    font-weight: bold;
+    font-size: 50px;
+    color: #ff5c01; 
+}
+.contactusparallax1 .col-md-12
+{
+	background-color: rgba(255, 255, 255, 0.67);
+	padding: 0px;
+}
+*/
+.contactsec1 .row
+{
+	margin: 0px;
+}
+
+.contactsec1 .col-md-12.p1
+{
+	text-align: center;
+}
+.contactsec1 .col-md-12.p2
+{
+	text-align: center;
+}
+.contactsec1 .col-md-12.p2 p
+{
+	font-size: 18px;
+}
+.contactsec1 .col-md-12.p2 i:hover
+{
+	color: white;	
+	background-color: #ff5c01; 
+}
+.contactsec1 .col-md-12.p2 .col-md-6.p1
+{	
+    padding: 1% 1% 1% 31%;;
+}
+.contactsec1 .col-md-12.p2 .col-md-6.p2
+{	
+    padding: 1% 31% 1% 1%;
+}
+.contactsec1 .col-md-12.p2 .col-md-6.p2 .contact
+{
+    height: 220px;
+    padding-top: 11px;
+}
+.contactsec1 .col-md-12.p2 .col-md-6.p1 i
+{
+    border: 3px solid #00346e;
+    padding: 6% 14%;
+    border-radius: 50%;
+    color: #00346e;
+}
+.contactsec1 .col-md-12.p2 .col-md-6.p1 i:hover
+{
+	border: 3px solid #ff5c01;
+	background-color:  #ff5c01;
+    border-radius: 50%;
+	color: white;
+}
+
+.contactsec1 .col-md-12.p2 .col-md-6.p2 i
+{
+    border: 3px solid #00346e;
+    padding: 12%;
+    border-radius: 50%;
+    color: #00346e;
+}
+.contactsec1 .col-md-12.p2 .col-md-6.p2 i:hover
+{
+	border: 3px solid #ff5c01;
+	background-color:  #ff5c01;
+    border-radius: 50%;
+	color: white;
+}
+.contactsec1 .col-md-12.p2 .btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.contactsec2 .row
+{
+	margin: 0px;
+}
+.contactsec2 .col-md-12
+{	
+    text-align: center;
+    height: 250px;
+	background-color: #ff5c01;
+    padding: 3% 0%;
+}
+.contactsec2 .col-md-12 a
+{	
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1% 3%;
+    color: #ff5c01;
+    background-color: white;
+}
+.contactsec2 .col-md-12 a:hover
+{	
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1% 3%;
+    color: #ff5c01;
+    background-color: white;
+	box-shadow: 3px 3px 15px black;
+}
+.contactsec2 .col-md-12 h1
+{
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.contactsec3 .row
+{
+	margin: 0px;
+}
+.contactsec3 .col-md-12.main
+{
+    padding: 3% 18%;
+    text-align: center;
+}
+
+.contactsec3 .col-md-12.p2 .col-md-6
+{
+	text-align: left;
+}
+.contactsec3 .col-md-12.main .col-md-12.p1 p
+{
+    font-size: 18px;
+}
+.contactsec3 .col-md-12.p3
+{
+    padding: 0% 3%;
+	text-align: left;
+}
+.contactsec3 .col-md-12.p4 .btn
+{
+    height: 50px;
+    width: 140px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #ff5c01;
+    border:1px solid #ff5c01;
+}
+.contactsec4 .row
+{
+	margin: 0px;
+}
+.contactsec4 .col-md-12
+{
+	background-image: url(../images/adressparallax.jpg);
+	height: 16vh;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+	padding: 0px;
+}
+.contactsec4 .col-md-12.p1
+{
+	text-align: center;
+	height: 39px;
+}
+.contactsec4 .col-md-12.p1 h1
+{
+	background-color: #ffffffde;
+	margin: 0px;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.contactsec4 .col-md-12.p2
+{
+
+}
+.contactsec4 .col-md-12.p2 .address
+{
+	height: 225px;
+	border:1px solid black;
+	text-align: center;
+	padding: 7%;
+}
+.contactsec4 .col-md-12.p2 .address h3
+{
+    margin: 0px 0px 10px 0px;
+    font-size: 30px;
+}
+.contactsec4 .col-md-12.p2 .address p
+{
+    margin: 0px 0px 7px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.contactsec4 .col-md-12.p2 .col-md-6.p1
+{	
+    height: 276px;
+    padding: 1% 2% 2% 25%;
+	background-color: #ffffffde;
+}
+.contactsec4 .col-md-12.p2 .col-md-6.p2
+{	
+    height: 276px;
+    padding: 1% 25% 2% 2%;
+	background-color: #ffffffde;
+}
+
+
+/******************************************Career Page Starts Here***********************************/
+
+.careersec1 .row
+{
+	margin: 0px;
+}
+.careersec1 .col-md-12.p1 h2
+{
+	text-align: center;
+}
+.careersec1 .col-md-12.p1 p
+{
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 18px;
+	padding: 1% 8%;
+}
+.careersec1 .col-md-12.p2 .col-md-4 .col-md-7
+{
+	padding: 0px;
+}
+.careersec1 .col-md-12.p2 .col-md-4 .col-md-7 p
+{
+	font-size: 15px;
+}
+.careersec1 .col-md-12.p2 .col-md-4 .col-md-5
+{
+	padding: 0px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.careersec1 .col-md-12.p2 .col-md-4 .panel-heading
+{
+	background-color: #ff5c01;
+	border-color: #ff5c01;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+    padding: 6px 15px;
+}
+.careersec1 .col-md-12.p2 .col-md-4 .panel-footer
+{
+	text-align: right;
+	background-color: white;
+	border-color: white;
+}
+.careersec1 .col-md-12.p2 .col-md-4 .panel-primary
+{
+	border-color: #ff5c01;
+}
+.careersec1 .col-md-12.p2 .col-md-4 .btn
+{
+	background-color: #ff5c01;
+	border-color: #ff5c01;
+}
+
+.careerpopupform .modal-dialog
+{
+    margin-top: 6%;
+}
+.careerpopupform .modal-body .col-md-9
+{
+	padding-bottom: 3%;
+}
+.careerpopupform .modal-footer .btn
+{
+	background-color: #ff5c01;
+	border-color: #ff5c01;
+	font-size: 18px;
+	font-weight: bold;
+}
+.careerpopupform .modal-footer
+{
+    padding: 10px;
+    text-align: center;
+}
+.careerpopupform .modal-body
+{
+    height: 370px;
+}
